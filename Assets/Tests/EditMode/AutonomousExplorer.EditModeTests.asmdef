@@ -1,0 +1,8 @@
+{
+  "name": "AutonomousExplorer.EditModeTests",
+  "rootNamespace": "AutonomousExplorer.Tests.EditMode",
+  "references": ["AutonomousExplorer.Domain"],
+  "includePlatforms": ["Editor"],
+  "optionalUnityReferences": ["TestAssemblies"],
+  "noEngineReferences": true
+}
