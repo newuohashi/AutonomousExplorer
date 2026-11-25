@@ -1,0 +1,37 @@
+# Unity CLI exceptions for AutonomousExplorer.
+# Invoke each unity command as a separate shell call, with this argument order.
+# These rules permit host execution; they do not enforce an OS-level project boundary.
+
+prefix_rule(
+    pattern = ["unity", "status", "--project-path", "C:/GitHub/Unity/AutonomousExplorer"],
+    decision = "allow",
+    justification = "Read the current user's Pipeline descriptor and check the project's Editor.",
+    match = ["unity status --project-path C:/GitHub/Unity/AutonomousExplorer --format json"],
+    not_match = ["unity status --project-path C:/GitHub/Unity/OtherProject"],
+)
+
+prefix_rule(
+    pattern = ["unity", "command", "--project-path", "C:/GitHub/Unity/AutonomousExplorer", "editor", ["status", "set_auto_tick"]],
+    decision = "allow",
+    justification = "Inspect the Editor and keep it responsive during compile and test runs.",
+)
+
+prefix_rule(
+    pattern = ["unity", "command", "--project-path", "C:/GitHub/Unity/AutonomousExplorer", "script", ["recompile", "recompile_status"]],
+    decision = "allow",
+    justification = "Compile project scripts and inspect compilation results.",
+    not_match = ["unity command --project-path C:/GitHub/Unity/AutonomousExplorer script eval return"],
+)
+
+prefix_rule(
+    pattern = ["unity", "command", "--project-path", "C:/GitHub/Unity/AutonomousExplorer", "test", ["list", "run", "status"]],
+    decision = "allow",
+    justification = "Discover, run, and inspect project tests.",
+)
+
+prefix_rule(
+    pattern = ["unity", "command", "--project-path", "C:/GitHub/Unity/AutonomousExplorer", "console", ["status", "get"]],
+    decision = "allow",
+    justification = "Read compilation and test diagnostics from the Editor console.",
+)
+

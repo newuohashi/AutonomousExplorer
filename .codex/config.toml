@@ -1,0 +1,15 @@
+sandbox_mode = "workspace-write"
+
+[sandbox_workspace_write]
+network_access = true
+
+[features.network_proxy]
+enabled = true
+allow_local_binding = false
+
+[features.network_proxy.domains]
+"127.0.0.1" = "allow"
+# Disable Unity CLI usage analytics for commands in this project.
+[shell_environment_policy.set]
+DO_NOT_TRACK = '1'
+
