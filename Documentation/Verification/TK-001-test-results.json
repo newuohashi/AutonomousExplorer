@@ -1,0 +1,265 @@
+{
+  "status": "completed",
+  "duration": 0.62,
+  "summary": {
+    "total": 36,
+    "passed": 36,
+    "failed": 0,
+    "skipped": 0,
+    "inconclusive": 0
+  },
+  "results": [
+    {
+      "fullName": "AutonomousExplorer.Tests.EditMode.Tasks.T001BaseTests.CellMembershipUsesFloorAndHalfOpenBoundaries(0.99d,1.01d,1,0,1)",
+      "status": "Passed",
+      "duration": 0.0102121,
+      "message": null,
+      "stackTrace": null
+    },
+    {
+      "fullName": "AutonomousExplorer.Tests.EditMode.Tasks.T001BaseTests.CellMembershipUsesFloorAndHalfOpenBoundaries(1,0,1,1,0)",
+      "status": "Passed",
+      "duration": 0.0001028,
+      "message": null,
+      "stackTrace": null
+    },
+    {
+      "fullName": "AutonomousExplorer.Tests.EditMode.Tasks.T001BaseTests.CellMembershipUsesFloorAndHalfOpenBoundaries(-0.01d,-1,1,-1,-1)",
+      "status": "Passed",
+      "duration": 6.81E-05,
+      "message": null,
+      "stackTrace": null
+    },
+    {
+      "fullName": "AutonomousExplorer.Tests.EditMode.Tasks.T001BaseTests.CellMembershipUsesFloorAndHalfOpenBoundaries(-1.01d,-0.99d,1,-2,-1)",
+      "status": "Passed",
+      "duration": 9.36E-05,
+      "message": null,
+      "stackTrace": null
+    },
+    {
+      "fullName": "AutonomousExplorer.Tests.EditMode.Tasks.T001BaseTests.CellMembershipUsesFloorAndHalfOpenBoundaries(1.99d,-0.01d,2,0,-1)",
+      "status": "Passed",
+      "duration": 0.0001022,
+      "message": null,
+      "stackTrace": null
+    },
+    {
+      "fullName": "AutonomousExplorer.Tests.EditMode.Tasks.T001BaseTests.CellMembershipUsesFloorAndHalfOpenBoundaries(-2,2,2,-1,1)",
+      "status": "Passed",
+      "duration": 6.17E-05,
+      "message": null,
+      "stackTrace": null
+    },
+    {
+      "fullName": "AutonomousExplorer.Tests.EditMode.Tasks.T001BaseTests.CellOrderIsXThenZWithoutSubtractionOverflow",
+      "status": "Passed",
+      "duration": 0.0035283,
+      "message": null,
+      "stackTrace": null
+    },
+    {
+      "fullName": "AutonomousExplorer.Tests.EditMode.Tasks.T001BaseTests.CharacterGuidNormalizationPreservesDictionaryIdentity",
+      "status": "Passed",
+      "duration": 0.0036341,
+      "message": null,
+      "stackTrace": null
+    },
+    {
+      "fullName": "AutonomousExplorer.Tests.EditMode.Tasks.T001BaseTests.DistanceIsSymmetricAndAvoidsSquaringOverflow",
+      "status": "Passed",
+      "duration": 0.0007834,
+      "message": null,
+      "stackTrace": null
+    },
+    {
+      "fullName": "AutonomousExplorer.Tests.EditMode.Tasks.T001BaseTests.DomainAssemblyHasNoUnityOrOuterLayerReferences",
+      "status": "Passed",
+      "duration": 0.0006495,
+      "message": null,
+      "stackTrace": null
+    },
+    {
+      "fullName": "AutonomousExplorer.Tests.EditMode.Tasks.T001BaseTests.EntityKindsAndNumericOrderingRemainDistinct",
+      "status": "Passed",
+      "duration": 0.0012079,
+      "message": null,
+      "stackTrace": null
+    },
+    {
+      "fullName": "AutonomousExplorer.Tests.EditMode.Tasks.T001BaseTests.InvalidCellSizeCannotProduceACell(0)",
+      "status": "Passed",
+      "duration": 0.0009711,
+      "message": null,
+      "stackTrace": null
+    },
+    {
+      "fullName": "AutonomousExplorer.Tests.EditMode.Tasks.T001BaseTests.InvalidCellSizeCannotProduceACell(-1)",
+      "status": "Passed",
+      "duration": 8.03E-05,
+      "message": null,
+      "stackTrace": null
+    },
+    {
+      "fullName": "AutonomousExplorer.Tests.EditMode.Tasks.T001BaseTests.InvalidCellSizeCannotProduceACell(double.NaN)",
+      "status": "Passed",
+      "duration": 6.48E-05,
+      "message": null,
+      "stackTrace": null
+    },
+    {
+      "fullName": "AutonomousExplorer.Tests.EditMode.Tasks.T001BaseTests.InvalidCellSizeCannotProduceACell(double.PositiveInfinity)",
+      "status": "Passed",
+      "duration": 6.71E-05,
+      "message": null,
+      "stackTrace": null
+    },
+    {
+      "fullName": "AutonomousExplorer.Tests.EditMode.Tasks.T001BaseTests.InvalidCharacterIdsAreRejected(null)",
+      "status": "Passed",
+      "duration": 0.0002488,
+      "message": null,
+      "stackTrace": null
+    },
+    {
+      "fullName": "AutonomousExplorer.Tests.EditMode.Tasks.T001BaseTests.InvalidCharacterIdsAreRejected(\"\")",
+      "status": "Passed",
+      "duration": 0.0001698,
+      "message": null,
+      "stackTrace": null
+    },
+    {
+      "fullName": "AutonomousExplorer.Tests.EditMode.Tasks.T001BaseTests.InvalidCharacterIdsAreRejected(\"not-a-guid\")",
+      "status": "Passed",
+      "duration": 7.2E-05,
+      "message": null,
+      "stackTrace": null
+    },
+    {
+      "fullName": "AutonomousExplorer.Tests.EditMode.Tasks.T001BaseTests.InvalidCharacterIdsAreRejected(\"00000000000000000000000000000000\")",
+      "status": "Passed",
+      "duration": 7.06E-05,
+      "message": null,
+      "stackTrace": null
+    },
+    {
+      "fullName": "AutonomousExplorer.Tests.EditMode.Tasks.T001BaseTests.MovementInterpolationCrossesTheBoundaryBeforeArrival",
+      "status": "Passed",
+      "duration": 0.0006668,
+      "message": null,
+      "stackTrace": null
+    },
+    {
+      "fullName": "AutonomousExplorer.Tests.EditMode.Tasks.T001BaseTests.NegativeSequenceIdsAndDefaultReferencesCannotBecomeValidEntities",
+      "status": "Passed",
+      "duration": 0.0004456,
+      "message": null,
+      "stackTrace": null
+    },
+    {
+      "fullName": "AutonomousExplorer.Tests.EditMode.Tasks.T001BaseTests.NeighborsUseNorthEastSouthWestAndCoordinatesRemainHashable",
+      "status": "Passed",
+      "duration": 0.0032373,
+      "message": null,
+      "stackTrace": null
+    },
+    {
+      "fullName": "AutonomousExplorer.Tests.EditMode.Tasks.T001BaseTests.NonFiniteCoordinatesAndInterpolationAreRejected(double.NaN)",
+      "status": "Passed",
+      "duration": 0.0004186,
+      "message": null,
+      "stackTrace": null
+    },
+    {
+      "fullName": "AutonomousExplorer.Tests.EditMode.Tasks.T001BaseTests.NonFiniteCoordinatesAndInterpolationAreRejected(double.PositiveInfinity)",
+      "status": "Passed",
+      "duration": 9.49E-05,
+      "message": null,
+      "stackTrace": null
+    },
+    {
+      "fullName": "AutonomousExplorer.Tests.EditMode.Tasks.T001BaseTests.NonFiniteCoordinatesAndInterpolationAreRejected(double.NegativeInfinity)",
+      "status": "Passed",
+      "duration": 7.45E-05,
+      "message": null,
+      "stackTrace": null
+    },
+    {
+      "fullName": "AutonomousExplorer.Tests.EditMode.Tasks.T001BaseTests.OrdinaryFailuresPreserveTheirReasonWithoutChangingCallerState(NoSpace)",
+      "status": "Passed",
+      "duration": 0.0019802,
+      "message": null,
+      "stackTrace": null
+    },
+    {
+      "fullName": "AutonomousExplorer.Tests.EditMode.Tasks.T001BaseTests.OrdinaryFailuresPreserveTheirReasonWithoutChangingCallerState(InvalidTarget)",
+      "status": "Passed",
+      "duration": 0.000153,
+      "message": null,
+      "stackTrace": null
+    },
+    {
+      "fullName": "AutonomousExplorer.Tests.EditMode.Tasks.T001BaseTests.OrdinaryFailuresPreserveTheirReasonWithoutChangingCallerState(AlreadyHandled)",
+      "status": "Passed",
+      "duration": 0.0001244,
+      "message": null,
+      "stackTrace": null
+    },
+    {
+      "fullName": "AutonomousExplorer.Tests.EditMode.Tasks.T001BaseTests.OrdinaryFailuresPreserveTheirReasonWithoutChangingCallerState(NotFound)",
+      "status": "Passed",
+      "duration": 9.82E-05,
+      "message": null,
+      "stackTrace": null
+    },
+    {
+      "fullName": "AutonomousExplorer.Tests.EditMode.Tasks.T001BaseTests.OrdinaryFailuresPreserveTheirReasonWithoutChangingCallerState(InvalidOrigin)",
+      "status": "Passed",
+      "duration": 0.0001075,
+      "message": null,
+      "stackTrace": null
+    },
+    {
+      "fullName": "AutonomousExplorer.Tests.EditMode.Tasks.T001BaseTests.OrdinaryFailuresPreserveTheirReasonWithoutChangingCallerState(Reserved)",
+      "status": "Passed",
+      "duration": 9.73E-05,
+      "message": null,
+      "stackTrace": null
+    },
+    {
+      "fullName": "AutonomousExplorer.Tests.EditMode.Tasks.T001BaseTests.OrdinaryFailuresPreserveTheirReasonWithoutChangingCallerState(InvalidPhase)",
+      "status": "Passed",
+      "duration": 0.0001339,
+      "message": null,
+      "stackTrace": null
+    },
+    {
+      "fullName": "AutonomousExplorer.Tests.EditMode.Tasks.T001BaseTests.OrdinaryFailuresPreserveTheirReasonWithoutChangingCallerState(Unavailable)",
+      "status": "Passed",
+      "duration": 9.59E-05,
+      "message": null,
+      "stackTrace": null
+    },
+    {
+      "fullName": "AutonomousExplorer.Tests.EditMode.Tasks.T001BaseTests.OrdinaryFailuresPreserveTheirReasonWithoutChangingCallerState(FullHP)",
+      "status": "Passed",
+      "duration": 0.0001119,
+      "message": null,
+      "stackTrace": null
+    },
+    {
+      "fullName": "AutonomousExplorer.Tests.EditMode.Tasks.T001BaseTests.OutOfRangePositionsDoNotWrapToAnotherCell",
+      "status": "Passed",
+      "duration": 0.0003859,
+      "message": null,
+      "stackTrace": null
+    },
+    {
+      "fullName": "AutonomousExplorer.Tests.EditMode.Tasks.T001BaseTests.ResultDefaultsAndFactoriesCannotConfuseSuccessWithFailure",
+      "status": "Passed",
+      "duration": 0.0006624,
+      "message": null,
+      "stackTrace": null
+    }
+  ]
+}
