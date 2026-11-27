@@ -1,0 +1,7 @@
+{
+  "name": "AutonomousExplorer.DefinitionTests",
+  "rootNamespace": "AutonomousExplorer.Tests.EditMode.Definitions",
+  "references": ["AutonomousExplorer.Domain", "AutonomousExplorer.Infrastructure"],
+  "includePlatforms": ["Editor"],
+  "optionalUnityReferences": ["TestAssemblies"]
+}

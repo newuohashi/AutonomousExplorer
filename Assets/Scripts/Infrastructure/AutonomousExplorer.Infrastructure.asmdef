@@ -1,0 +1,5 @@
+{
+  "name": "AutonomousExplorer.Infrastructure",
+  "rootNamespace": "AutonomousExplorer.Infrastructure",
+  "references": ["AutonomousExplorer.Domain"]
+}

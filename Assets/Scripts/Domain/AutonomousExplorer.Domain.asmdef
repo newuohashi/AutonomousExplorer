@@ -1,0 +1,6 @@
+{
+  "name": "AutonomousExplorer.Domain",
+  "rootNamespace": "AutonomousExplorer.Domain",
+  "references": [],
+  "noEngineReferences": true
+}
